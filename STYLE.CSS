@@ -604,7 +604,66 @@ label{
       border-radius: 20px;
       margin-top: 30px;
   }
-
+  @media only screen and (max-width: 1300px) {
+    .logoimg img{
+      width: 250px;
+      height: 250px;
+    }
+    .timeline img{
+      width: 650px;
+      margin-left: 40px;
+    }
+    .carousel{
+      width: 450px;
+      margin-left: 130px;
+      margin-top: 50px;
+    }
+    .input h2{
+      font-size: 13px;
+    }
+    .logo img{
+      height: 70px;
+      width: 70px;
+    }
+    .info h1{
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+    .box{
+      margin-left: 20px;
+      width: 260px;
+    }
+  }
+  @media only screen and (max-width: 1030px) {
+    .logoimg img{
+      width: 200px;
+      height: 200px;
+    }
+    .timeline img{
+      width: 600px;
+      margin-left: 40px;
+    }
+    .carousel{
+      width: 350px;
+      margin-left: 130px;
+      margin-top: 50px;
+    }
+    .input h2{
+      font-size: 13px;
+    }
+    .logo img{
+      height: 50px;
+      width: 50px;
+    }
+    .info h1{
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+    .box{
+      margin-left: 20px;
+      width: 260px;
+    }
+  }
   @media only screen and (max-width: 600px) {
     .logoimg img {
       width: 200px;
@@ -672,6 +731,292 @@ label{
 
     
   }
+  @media only screen and (max-width: 930px) {
+    .logoimg img {
+      width: 300px;
+      height: 300px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 100vh;
+    }
+    .timeline img{
+      height: 180px;
+      object-fit: contain;
+      
+    }
+    .introduction{
+      font-size: 18px;
+    }
+    .logo{
+      height: 200px;
+      width: 300px;
+      margin-top: -60px;
+      margin-left: 60px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+    .info h1{
+      font-size: 18px;
+      margin-left: 20px;
+    }
+    .data{
+      margin-top: 15px;
+    }
+    .data h2{
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .box{
+      margin-left: 10px;
+      width: 120px;
+      margin-top: -90px;
+    }
+    
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 400px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+      margin-left: 130px;
+      margin-top: 10px;
+      width: 600px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+
+    .contact{
+      height: 16vh;
+    }
+    
+  }
+  @media only screen and (max-width: 830px) {
+    .logoimg img {
+      width: 300px;
+      height: 300px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 100vh;
+    }
+    .timeline img{
+      height: 160px;
+      object-fit: contain;
+      margin-left: 10px;
+    }
+    .introduction{
+      font-size: 12px;
+    }
+    .logo{
+      height: 200px;
+      width: 300px;
+      margin-top: -60px;
+      margin-left: 60px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+    .info h1{
+      font-size: 14px;
+      margin-left: 20px;
+    }
+    .data{
+      margin-top: 15px;
+    }
+    .data h2{
+      font-size: 9px;
+      margin-top: 5px;
+    }
+    .box{
+      margin-left: 10px;
+      width: 120px;
+      margin-top: -90px;
+    }
+    
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 270px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+      margin-left: 130px;
+      margin-top: 10px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+
+    .contact{
+      height: 16vh;
+    }
+    
+  }
+  @media only screen and (max-width: 780px) {
+    .logoimg img {
+      width: 300px;
+      height: 300px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 110vh;
+    }
+    .timeline img{
+      height: 160px;
+      object-fit: contain;
+      margin-left: 10px;
+    }
+    .introduction{
+      font-size: 12px;
+    }
+    .logo{
+      height: 200px;
+      width: 300px;
+      margin-top: -60px;
+      margin-left: 60px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+    .info h1{
+      font-size: 14px;
+      margin-left: 20px;
+    }
+    .data{
+      margin-top: 15px;
+    }
+    .data h2{
+      font-size: 9px;
+      margin-top: 5px;
+    }
+    .box{
+      margin-left: 10px;
+      width: 120px;
+      margin-top: -90px;
+    }
+    
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 270px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+      margin-left: 130px;
+      margin-top: 10px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+
+    .contact{
+      height: 16vh;
+    }
+    
+  }
+  @media only screen and (max-width: 550px) {
+    .logoimg img {
+      width: 200px;
+      height: 200px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 150vh;
+    }
+    .timeline img{
+      width: 500px;
+      object-fit: contain;
+      margin-left: 7px;
+    }
+    .introduction{
+      font-size: 12px;
+    }
+    .logo{
+      height: 200px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: -150px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 270px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+      margin-top: 10px;
+      width: 400px;
+      margin-left: 55px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+    .box{
+      margin-top: -20px;
+    }
+    .contact{
+      background: url(./bg3hp.png);
+      background-size: cover;
+    }
+    .info h1{
+      margin-top: 10px;
+    }
+    .data h2{
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    .data{
+      margin-top: -250px;
+    }
+    .sosmed{
+      background: transparent;
+    }
+  }
+
   @media only screen and (max-width: 450px) {
     .logoimg img {
       width: 200px;
@@ -682,6 +1027,78 @@ label{
       background-image: url(./bg2hp.png);
       background-size: cover;
       height: 1045px;
+    }
+    .timeline img{
+      width: 370px;
+      object-fit: contain;
+      margin-left: 7px;
+    }
+    .introduction{
+      font-size: 12px;
+    }
+    .logo{
+      height: 200px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: -150px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 270px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+     
+      margin-top: 10px;
+      width: 300px;
+      margin-left: 35px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+    .box{
+      margin-top: -20px;
+    }
+    .contact{
+      background: url(./bg3hp.png);
+      background-size: cover;
+    }
+    .info h1{
+      margin-top: 10px;
+    }
+    .data h2{
+      margin-top: 20px;
+      font-size: 12px;
+    }
+    .data{
+      margin-top: -250px;
+    }
+    .sosmed{
+      background: transparent;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .logoimg img {
+      width: 200px;
+      height: 200px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 1100px;
     }
     .timeline img{
       width: 370px;
@@ -932,6 +1349,81 @@ label{
      
       margin-top: 10px;
       width: 300px;
+      margin-left: 20px;
+    }
+    .navigation{
+      width: 100vw;
+    }
+    .box{
+      margin-top: -20px;
+    }
+    .contact{
+      background: url(./bg3hp.png);
+      background-size: cover;
+    }
+    .info h1{
+      margin-top: 10px;
+    }
+    .data h2{
+      margin-top: 2px;
+    }
+    .data{
+      margin-top: -130px;
+    }
+    .sosmed{
+      background: transparent;
+    }
+  }
+
+  @media only screen and (max-width: 290px) {
+    .logoimg img {
+      width: 200px;
+      height: 200px;
+    }
+    .eventpage{
+      flex-direction: column;
+      background-image: url(./bg2hp.png);
+      background-size: cover;
+      height: 180vh;
+    }
+    .input h2{
+      font-size: 15px;
+    }
+    .timeline img{
+      width: 250px;
+      object-fit: contain;
+      margin-left: 5px;
+    }
+    .introduction{
+      font-size: 12px;
+    }
+    .logo{
+      height: 200px;
+      width: 300px;
+      margin-top: -60px;
+      margin-left: -20px;
+    }
+    .logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 105px;
+    }
+
+    .register{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 270px;
+    }
+
+    .form{
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .carousel{
+     
+      margin-top: 10px;
+      width: 200px;
       margin-left: 20px;
     }
     .navigation{
