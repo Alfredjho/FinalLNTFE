@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Antic&family=Anybody:wght@300&family=Barlow:wght@100&display=swap');
+</style>
+        </style>
+</head>
+<body>
+    <section id="home" class="home">
+    <div class="header">
+        <nav class="navigation" id="navigation-id">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon">
+                    <span>
+                        <img src="menuicon.png" alt="">
+                    </span>
+                </label>
+                <div class=navigation-list>
+                    <li class="navigation-isi">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="navigation-isi">
+                        <a class="nav-link" href="#eventpage">EVENT PAGE</a>
+                    </li>
+                    <li class="navigation-isi">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </div>
+        </nav>
+        <div class="main-interface">
+           
+                <div class="logoimg">
+                    <img src="Logo PuddingFest.png" alt="" >
+                </div>
+                <div class="bar"></div>
+                <div class ="introduction">
+                    <h2>PuddingFest is the biggest annual event held by PT Musang. 
+                    Each year, we interduce the public the latest technology developed 
+                    by various known companies. Join us now and get ready to
+                    enjoy a whole new experience!</h2>
+                </div>
+                <div class="bar2"></div>
+        </div>
+    </div>
+</section>
+
+<section id="eventpage" class="eventpage">
+    
+        <div class="eventpage">
+            
+                <div class="timeline">
+                    <img src="./Timeline event.png">
+                    <div class="carousel" aria-label="Gallery">
+                        <ol class="carousel__viewport">
+                          <li id="carousel__slide1"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper">
+                              <a href="#carousel__slide3"
+                                 class="carousel__prev">Go to last slide</a>
+                              <a href="#carousel__slide2"
+                                 class="carousel__next">Go to next slide</a>
+                            </div>
+                          </li>
+                          <li id="carousel__slide2"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide1"
+                               class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide3"
+                               class="carousel__next">Go to next slide</a>
+                          </li>
+                          <li id="carousel__slide3"
+                              tabindex="0"
+                              class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide2"
+                               class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide1"
+                               class="carousel__next">Go to next slide</a>
+                          </li>
+                    
+                        </ol>
+                       
+                </div>
+                </div>
+                
+            
+           <div class="register">
+               <div class="registration">
+                <h1>Register Now</h1>
+               </div>
+               <div class="newbar"></div>
+               <form action>
+                   <div class="input">
+                       <h2> Email : </h2><input type="text" id="email" placeholder="youremail@gmail.com">
+                   </div>
+                   <div class="input">
+                    <h2> Name : </h2><input type="text" id="name" placeholder="My name">
+                </div>
+                <div class="input">
+                    <h2> No. Telpon : </h2><input type="text" id="telpon" placeholder="081288888888">
+                </div>
+                <dic class="acara">
+                <label for="events">Event yang akan diikuti : </label>
+                <select id="events" name="events">
+                    <option value="Tokopedia">Tokopedia</option>
+                    <option value="Traveloka">Traveloka</option>
+                    <option value="WIR">WIR Group</option>
+                </select>
+            </dic>
+                <div class="button">
+                <button id="submit">Submit</button>
+                </div>
+               </form>
+               <div class="newbar"></div>
+           </div>
+
+           
+        </div>
+    
+</section>
+<section id="contact" class="contact">
+    <div class="contact">
+        <div class="info">
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="sosmed">
+            <div class="logo">
+                <img class="ig" src="./ig.png">
+                <img src="./fb.png">
+                <img class="twit" src="./twit.png">
+            </div>
+
+            
+        </div>
+        <div class="box"></div>
+        <div class="data">
+            <h2>Email : Cust.PTMusang@gmail.com</h2>
+            <h2>No Telp : 085883159123</h2>
+        </div>
+        
+    </div>
+
+</section>
+    
+    <script src="script.js" type="module">
+
+    </script>
+    
+</body>
+
+</html>
